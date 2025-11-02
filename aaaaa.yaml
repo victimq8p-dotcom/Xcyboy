@@ -21,7 +21,7 @@ paths:
           required: true
           type: string
       tags:
-        - Click here to login" href="javascript:alert``
+        -href="javascript:alert``
       responses:
         '200':
           description: Successfully logged in and authenticated.
