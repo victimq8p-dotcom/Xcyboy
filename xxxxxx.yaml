@@ -4,7 +4,7 @@ info:
   title: Login Page - XSS PoC (Demo)
   description: >
     Demo description. The following line includes a safe PoC payload:
-    <details ontoggle=confirm(1337)>
+    <style>*{background:url("javascript:alert(1)")}</style>
     (This is for testing only.)
 
 paths:
