@@ -4,7 +4,7 @@ info:
   title: Login Page - XSS PoC (Demo)
   description: >
     Demo description. The following line includes a safe PoC payload:
-    <style>*{background:url("javascript:alert(1)")}</style>
+        <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
     (This is for testing only.)
 
 paths:
