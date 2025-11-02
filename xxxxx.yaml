@@ -4,7 +4,7 @@ info:
   title: Login Page - XSS PoC (Demo)
   description: >
     Demo description. The following line includes a safe PoC payload:
-    <a href="java&#x73;cript:&bsol;u0061lert(1)">cick
+    <details ontoggle=confirm(1337)>
     (This is for testing only.)
 
 paths:
