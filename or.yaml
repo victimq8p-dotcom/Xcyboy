@@ -3,8 +3,10 @@ info:
   title: Simple API Example
   description: A simple example for testing Swagger UI
   version: 1.0.0
+
 servers:
   - url: https://example.com/api
+
 paths:
   /hello:
     get:
