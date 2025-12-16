@@ -1,8 +1,8 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: "<html id=xss><html onbeforematch=alert()><html hidden=until-found>"
-  description: "<html id=xss><html onbeforematch=alert()><html hidden=until-found>"
+  title: "<sCriPt x>(((confirm)))``</scRipt x>"
+  description: "<sCriPt x>(((confirm)))``</scRipt x>"
 
 paths:
   /Login_Page:
